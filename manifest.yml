@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT-sr
+  host: IOT-sr
+  disk_quota: 1024M
+  services:
+  - IOT-sr-cloudantNoSQLDB
+  - IOT-sr-iotf-service
